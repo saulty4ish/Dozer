@@ -1,6 +1,7 @@
 # Dozer
 金陵科技学院瞌睡虫网络安全社团
 
+<<<<<<< HEAD
 ### 社团介绍：
 
 > 瞌睡虫社团是由金陵科技学院学生自愿结成的，非盈利的科技组织。
@@ -28,7 +29,16 @@
 
 ### 成员分布:
 <table>
-
+<tr>
+<th>name</th>
+<th>belogs</th>
+<th>introduction</th>
+</tr>
+<tr>
+<td>test</td>
+<td>test</td>
+<td>test</td>
+</tr>
 
 
 
