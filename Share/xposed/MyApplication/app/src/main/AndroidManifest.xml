@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a5aulty4ish.myapplication">
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <meta-data
+            android:name="xposedmodule"
+            android:value="true"/>     <!--表示是xpose模块，因此xpose框架能识别它-->
+        <meta-data
+            android:name="xposeddescription"
+            android:value="module test"/>  <!--对模块功能的描述信息-->
+        <meta-data
+            android:name="xposedminversion"
+            android:value="54"/><!--模块的api版本,要导jar包的，jar包啥版本就写啥版本-->
+    </application>
+
+</manifest>
